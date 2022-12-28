@@ -1,0 +1,47 @@
+.works {
+  background-color: #34547A;
+  padding: 60px 0;
+  @media only screen and (min-width: 768px) {
+    padding: 80px 0; 
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    @media only screen and (min-width: 1024px) {
+      justify-content: space-between 
+    }
+  }
+  &__projects {
+    margin: 20px 18px;
+    display: flex;
+    align-items: center;
+    @media only screen and (min-width: 480px) {
+      margin: 25px 32px; 
+    }
+    @media only screen and (min-width: 768px) {
+      margin: 25px 60px; 
+    }
+    @media only screen and (min-width: 1024px) {
+      margin: 25px 10px; 
+      justify-content: space-between;
+    }
+    img {
+      width: 40px;
+      margin-right: 20px;
+      @media only screen and (min-width: 768px) {
+        width: 50px; 
+      }
+    }
+  }
+  &__info {
+    color: #FFFFFF;
+    p {
+      color: #FFFFFF;
+    }
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 21px;
+  }
+}

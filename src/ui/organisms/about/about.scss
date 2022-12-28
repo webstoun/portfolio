@@ -1,0 +1,26 @@
+.about {
+  background-color: #E5E5E5;
+  padding: 50px 0;
+  text-align: center;
+  @media only screen and (min-width: 992px) {
+    padding: 100px 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  p {
+    width: 100%;
+    max-width: 540px;
+    margin-top: 15px;
+    @media only screen and (min-width: 768px) {
+      margin-top: 50px;
+    }
+  }
+}
